@@ -1,0 +1,141 @@
+/*
+Theme name: Landning Page
+Theme URI: http://fredrufino.com
+Author: Frederico Rufino
+Author URI: http://fredrufino.com
+Description: Tema para estudo wordpress
+Version: 1.0
+*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(90deg, #D609E8 0%, #50046B 96.35%);
+    height: 10vh;
+}
+
+#home {
+    height: 90vh;
+    background: linear-gradient(90deg, #D609E8 0%, #50046B 96.35%);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.home-download p {
+    font-size: 20px;
+}
+
+.home-buttons>div {
+    width: 200px;
+    height: 70px;
+}
+
+.home-buttons h3,p {
+    padding: 0;
+    margin: 0;
+ }
+
+.dowload-play-store {
+    background: linear-gradient(90deg, #FAFF00 0%, #FFC700 100%);
+    border-radius: 5px;
+}
+
+.dowload-apk {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.home-image img, .dowload-image img{
+    max-height: 500px;
+    width: auto;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.circle-about {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(90deg, #D609E8 0%, #50046B 96.35%);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.card h3 {
+    font-weight: bold;
+}
+
+.card p {
+    font-style: 15px;   
+}
+
+#download {
+    background-color: #F4F4F4;
+}
+
+.download-buttons > div {
+    background: linear-gradient(90deg, #D609E8 0%, #50046B 96.35%);
+    border: none;
+}
+
+
+.contact-icons img, .nav-icons img {
+    height: 20px;
+}
+
+.contatc-form p {
+    padding: 0;
+    margin: 10px 0px;
+
+}
+
+.contatc-form label {
+    text-align: center;
+    height: 100%;
+    width: 70px;
+    margin: 0;
+    background: linear-gradient(90deg, #D609E8 0%, #50046B 96.35%);
+    color: #FFFFFF;
+}
+
+.contatc-form p>input {
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #E7E7E7;
+}
+
+.contatc-form textarea {
+    width: 75%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #E7E7E7;
+}
+
+
+footer {
+    background: linear-gradient(90deg, #D609E8 0%, #50046B 96.35%);
+}
